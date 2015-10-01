@@ -1,0 +1,3 @@
+rootProject.name = 'ComponentTest'
+
+include ':app'
