@@ -3,9 +3,29 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node_modules/react-native/packager/packager.sh"
+    "start": "node_modules/react-native/packager/packager.sh",
+    "test": "jest --verbose"
   },
   "dependencies": {
     "react-native": "^0.11.4"
+  },
+  "devDependencies": {
+    "babel-core": "^5.8.25",
+    "indent": "0.0.1",
+    "inspect-react-element": "^1.0.1",
+    "jest-cli": "0.5.4",
+    "object-matches": "^1.0.0",
+    "react": "^0.13.3",
+    "react-shallow-renderer-helpers": "^1.2.0"
+  },
+  "jest": {
+    "scriptPreprocessor": "jestSupport/scriptPreprocess.js",
+    "setupTestFrameworkScriptFile": "jestSupport/customMatchers.js",
+    "unmockedModulePathPatterns": [
+      "react"
+    ],
+    "testFileExtensions": [
+      "spec.js"
+    ]
   }
 }
