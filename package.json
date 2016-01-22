@@ -14,8 +14,8 @@
     "babel-core": "^6.4.5",
     "indent": "0.0.1",
     "inspect-react-element": "^1.0.1",
+    "is-subset": "^0.1.1",
     "jest-cli": "0.8.2",
-    "object-matches": "^1.0.0",
     "react": "^0.13.3",
     "react-shallow-renderer-helpers": "^1.2.0"
   },
