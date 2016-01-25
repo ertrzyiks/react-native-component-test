@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
     }
 });
 
-export default class Banner extends View {
+class Banner extends View {
     static get defaultProps() {
         return {
             title: 'MyBanner'
@@ -47,9 +47,13 @@ export default class Banner extends View {
 
         return (
             <TouchableWithoutFeedback onPress={(e) => this.onClick(e)} style={styles.container}>
-                <Text>{title}</Text>
+               <View>
+
+               <Text>{title}</Text>
                 <Text>Clicks: {clicks}</Text>
+                </View>
             </TouchableWithoutFeedback>
         );
     }
 }
+module.exports = Banner

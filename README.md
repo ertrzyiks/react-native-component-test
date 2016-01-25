@@ -4,8 +4,7 @@ Example repository showing how to use [jest](https://facebook.github.io/jest/) t
 based on [react-native](https://facebook.github.io/react-native/) components.
 
 ## Running
-
-Use node 3.3.0(iojs) or higher
+Require at least node 4.0 or higher
 
 * Install node dependencies `npm install`
 * Run test suite `npm test`
