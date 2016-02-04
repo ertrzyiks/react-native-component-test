@@ -1,4 +1,4 @@
-# react-native-component-test
+# react-native-component-test [![Build Status](https://travis-ci.org/ertrzyiks/react-native-component-test.svg?branch=master)](https://travis-ci.org/ertrzyiks/react-native-component-test)
 
 Example repository showing how to use [jest](https://facebook.github.io/jest/) to run tests
 based on [react-native](https://facebook.github.io/react-native/) components.
